@@ -1,5 +1,5 @@
 {
-  "name": "ratewise-frontend",
+  "name": "fxboard-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -33,5 +33,5 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "description": "RateWise frontend application"
+  "description": "FxBoard frontend application"
 }

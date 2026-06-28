@@ -1,8 +1,8 @@
 package controllers
 
 import (
+	"fxboard/global"
 	"net/http"
-	"ratewise/global"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

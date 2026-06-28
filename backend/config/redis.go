@@ -1,8 +1,8 @@
 package config
 
 import (
+	"fxboard/global"
 	"log"
-	"ratewise/global"
 
 	"github.com/go-redis/redis"
 )

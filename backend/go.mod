@@ -1,4 +1,4 @@
-module ratewise
+module fxboard
 
 go 1.22.5
 

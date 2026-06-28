@@ -1,6 +1,6 @@
-# RateWise
+# FxBoard
 
-RateWise 是一个前后端分离的汇率工具与金融观点社区项目。前端使用 Vue 3 + TypeScript + Element Plus 构建交互界面，后端使用 Go Gin + GORM 提供用户认证、汇率数据、文章内容和点赞统计接口，适合作为全栈开发求职作品进行本地演示。
+FxBoard 是一个前后端分离的汇率工具与金融观点社区项目。前端使用 Vue 3 + TypeScript + Element Plus 构建交互界面，后端使用 Go Gin + GORM 提供用户认证、汇率数据、文章内容和点赞统计接口，适合作为全栈开发求职作品进行本地演示。
 
 ## 技术栈
 
@@ -40,7 +40,7 @@ RateWise 是一个前后端分离的汇率工具与金融观点社区项目。�
 ## 项目结构
 
 ```text
-RateWise/
+FxBoard/
 ├── backend/                   # Go + Gin 后端服务
 │   ├── config/                # MySQL、Redis、应用配置
 │   ├── controllers/           # 接口控制器
@@ -94,7 +94,7 @@ CREATE DATABASE IF NOT EXISTS test
 ```yml
 # backend/config/config.yml
 app:
-  name: RateWise
+  name: FxBoard
   port: :3000
 
 database:
@@ -152,7 +152,7 @@ VALUES
 
 INSERT INTO articles (created_at, updated_at, title, preview, content)
 VALUES
-  (NOW(), NOW(), '人民币汇率观察', '关注近期人民币兑美元走势。', '本文用于演示 RateWise 的观点详情、鉴权访问和点赞功能。'),
+  (NOW(), NOW(), '人民币汇率观察', '关注近期人民币兑美元走势。', '本文用于演示 FxBoard 的观点详情、鉴权访问和点赞功能。'),
   (NOW(), NOW(), '外汇交易基础', '整理常见外汇概念和风险提示。', '外汇交易需要关注汇率波动、流动性、手续费和风险控制。');
 ```
 
@@ -194,7 +194,7 @@ go mod download   # 下载 Go 依赖
 
 ## 简历描述示例
 
-RateWise：基于 Vue 3、TypeScript、Element Plus、Go Gin、GORM、MySQL 和 Redis 实现的前后端分离汇率工具与金融观点社区，支持用户注册登录、JWT 鉴权、汇率查询换算、观点文章浏览和 Redis 点赞统计。项目采用 `frontend` / `backend` 的清晰目录结构，补充了自动建表、接口错误处理、前端加载/空状态、表单校验和本地运行文档，可稳定完成本地演示。
+FxBoard：基于 Vue 3、TypeScript、Element Plus、Go Gin、GORM、MySQL 和 Redis 实现的前后端分离汇率工具与金融观点社区，支持用户注册登录、JWT 鉴权、汇率查询换算、观点文章浏览和 Redis 点赞统计。项目采用 `frontend` / `backend` 的清晰目录结构，补充了自动建表、接口错误处理、前端加载/空状态、表单校验和本地运行文档，可稳定完成本地演示。
 
 ## 可讲技术亮点
 

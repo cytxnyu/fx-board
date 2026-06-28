@@ -1,8 +1,8 @@
 package middlewares
 
 import (
+	"fxboard/utils"
 	"net/http"
-	"ratewise/utils"
 
 	"github.com/gin-gonic/gin"
 )

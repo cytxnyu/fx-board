@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"time"
 
-	"ratewise/config"
-	"ratewise/router"
+	"fxboard/config"
+	"fxboard/router"
 )
 
 func main() {

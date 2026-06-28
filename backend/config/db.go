@@ -1,9 +1,9 @@
 package config
 
 import (
+	"fxboard/global"
+	"fxboard/models"
 	"log"
-	"ratewise/global"
-	"ratewise/models"
 	"time"
 
 	"gorm.io/driver/mysql"

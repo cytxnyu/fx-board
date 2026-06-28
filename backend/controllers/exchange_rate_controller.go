@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"errors"
+	"fxboard/global"
+	"fxboard/models"
 	"net/http"
-	"ratewise/global"
-	"ratewise/models"
 	"time"
 
 	"github.com/gin-gonic/gin"

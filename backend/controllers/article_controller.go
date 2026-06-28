@@ -3,9 +3,9 @@ package controllers
 import (
 	"encoding/json"
 	"errors"
+	"fxboard/global"
+	"fxboard/models"
 	"net/http"
-	"ratewise/global"
-	"ratewise/models"
 	"time"
 
 	"github.com/gin-gonic/gin"

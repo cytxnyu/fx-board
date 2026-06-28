@@ -1,8 +1,8 @@
 package router
 
 import (
-	"ratewise/controllers"
-	"ratewise/middlewares"
+	"fxboard/controllers"
+	"fxboard/middlewares"
 	"time"
 
 	"github.com/gin-contrib/cors"

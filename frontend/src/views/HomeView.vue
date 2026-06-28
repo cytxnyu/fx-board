@@ -2,7 +2,7 @@
   <el-container class="home-container">
     <div class="content-wrapper">
       <p class="eyebrow">FX insights community</p>
-      <h1 class="title">RateWise</h1>
+      <h1 class="title">FxBoard</h1>
       <p class="description">
         面向个人投资者和外汇学习者的汇率工具与市场观点社区，聚合汇率换算、资讯阅读和互动点赞等核心能力。
       </p>

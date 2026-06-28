@@ -1,10 +1,10 @@
 package controllers
 
 import (
+	"fxboard/global"
+	"fxboard/models"
+	"fxboard/utils"
 	"net/http"
-	"ratewise/global"
-	"ratewise/models"
-	"ratewise/utils"
 
 	"github.com/gin-gonic/gin"
 )
