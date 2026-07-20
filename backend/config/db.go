@@ -1,8 +1,8 @@
 package config
 
 import (
-	"fxboard/global"
-	"fxboard/models"
+	"fx-board/global"
+	"fx-board/models"
 	"log"
 	"time"
 

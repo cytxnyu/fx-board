@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"time"
 
-	"fxboard/config"
-	"fxboard/router"
+	"fx-board/config"
+	"fx-board/router"
 )
 
 func main() {

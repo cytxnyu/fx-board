@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"fxboard/global"
-	"fxboard/models"
-	"fxboard/utils"
+	"fx-board/global"
+	"fx-board/models"
+	"fx-board/utils"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

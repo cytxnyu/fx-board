@@ -1,7 +1,7 @@
 package middlewares
 
 import (
-	"fxboard/utils"
+	"fx-board/utils"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

@@ -3,8 +3,8 @@ package controllers
 import (
 	"encoding/json"
 	"errors"
-	"fxboard/global"
-	"fxboard/models"
+	"fx-board/global"
+	"fx-board/models"
 	"net/http"
 	"time"
 

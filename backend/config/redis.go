@@ -1,7 +1,7 @@
 package config
 
 import (
-	"fxboard/global"
+	"fx-board/global"
 	"log"
 
 	"github.com/go-redis/redis"

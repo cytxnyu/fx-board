@@ -1,8 +1,8 @@
 package router
 
 import (
-	"fxboard/controllers"
-	"fxboard/middlewares"
+	"fx-board/controllers"
+	"fx-board/middlewares"
 	"time"
 
 	"github.com/gin-contrib/cors"

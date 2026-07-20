@@ -1,4 +1,4 @@
-module fxboard
+module fx-board
 
 go 1.22.5
 

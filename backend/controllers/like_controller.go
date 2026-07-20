@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"fxboard/global"
+	"fx-board/global"
 	"net/http"
 	"strconv"
 

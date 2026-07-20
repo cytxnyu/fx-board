@@ -1,5 +1,5 @@
 app:
-  name: FxBoard
+  name: fx-board
   port: :3000
 
 database:
